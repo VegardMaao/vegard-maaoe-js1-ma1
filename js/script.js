@@ -35,7 +35,7 @@ paragraphs.forEach(paragraph => {
     paragraph.style.color="red";
 });
 
-// You can also use a for loop:
+// Alternative solution with a for loop:
 // for (let i = 0; i < paragraphs.length; i++) {
 //     paragraphs[i].style.color = "red";
 // };
