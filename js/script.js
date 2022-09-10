@@ -20,7 +20,7 @@ const cat = {
 };
 
 //Question 2:
-let heading = document.querySelector("h3");
+const heading = document.querySelector("h3");
 heading.innerHTML = "Updated heading";
 
 //Question 3:
@@ -50,7 +50,6 @@ function questionSeven(list) {
     for (let i = 0; i < list.length; i++) {
         console.log(list[i].name);
     }
-    
 };
 questionSeven(cats);
 
